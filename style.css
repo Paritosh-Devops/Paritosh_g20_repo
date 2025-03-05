@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://c4.wallpaperflare.com/wallpaper/341/160/942/harry-potter-and-the-order-of-the-phoenix-wallpaper-preview.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.cover-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.member {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.member h2 {
+    margin: 10px 0;
+}
+
+.member p a {
+    color: #3c0cec;
+    text-decoration: none;
+    margin: 0 5px;
+}
